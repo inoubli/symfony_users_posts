@@ -1,0 +1,9 @@
+
+<!-- app/Resources/views/users/user.html.twig -->
+
+<a href="{{ path('user',{'id': user.id}) }}">{{ user.website }}</a>
+<br />
+<span class="small">{{ user.name }}</span>
+<span class="pull-right">
+    {{ user.address.city }} <i class="glyphicon glyphicon-star"></i>
+</span>
