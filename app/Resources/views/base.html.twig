@@ -43,9 +43,7 @@
                         $.ajax({
                             url : url,
                             method: 'POST',
-                            beforeSend: function(xhr){
-                                $('.select_element_you_want_to_load_into').html('Loading...');
-                            },
+                           
                             success: function(data){
                                 document.getElementById("details").innerHTML = data;
                                 $(".loader").css('display', 'none');
