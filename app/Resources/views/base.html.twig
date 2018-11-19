@@ -31,6 +31,34 @@
         </div><!-- /.container -->   
 
         
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script src="{{ asset('bundles/fosjsrouting/js/router.min.js') }}"></script>
+            <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                    function getDetails(e,id){
+                        e.preventDefault();
+                        $(".loader").css('display', 'block');
+                        let url = Routing.generate('user', {id:id})
+                        $.ajax({
+                            url : url,
+                            method: 'POST',
+                            beforeSend: function(xhr){
+                                $('.select_element_you_want_to_load_into').html('Loading...');
+                            },
+                            success: function(data){
+                                document.getElementById("details").innerHTML = data;
+                                $(".loader").css('display', 'none');
+
+                            }
+                        })
+
+                    }
+
+
+
+            </script>
+
+        {% endblock %}
     </body>
 </html>

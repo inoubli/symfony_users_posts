@@ -4,9 +4,9 @@ parameters:
     #parameter_name: value
 
 services:
-    users_api:
-        class: AppBundle\Service\UsersApi
-        public: true
+#    users_api:
+#        class: AppBundle\Service\UsersApi
+#        public: true
         
     # default configuration for services in *this* file
     _defaults:

@@ -1,7 +1,6 @@
 
 <!-- app/Resources/views/users/user.html.twig -->
-
-<a href="{{ path('user',{'id': user.id}) }}">{{ user.website }}</a>
+<a href="javascript:void(0);" id="user_detail_link" onclick="getDetails(event,{{ user.id }})" >{{ user.website }}</a>
 <br />
 <span class="small">{{ user.name }}</span>
 <span class="pull-right">
