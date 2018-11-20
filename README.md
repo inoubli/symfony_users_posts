@@ -75,3 +75,11 @@ Enjoy!
 [13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
 [14]: https://symfony.com/doc/current/setup/built_in_web_server.html
 [15]: https://symfony.com/doc/current/setup.html
+
+How to run this project on your localhost :
+--------------------------------------------
+1- cd /sf_users_posts/
+2- composer install
+3- php bin/console assets:install --symlink web
+4- php bin/console server:run
+5- go to : http://127.0.0.1:8000/home
