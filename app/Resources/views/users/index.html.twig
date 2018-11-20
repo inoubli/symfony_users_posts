@@ -1,8 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <div class="loader" style="display: none"></div>
     <div id="details" class="col-sm-3">
-        <div class="loader" style="display: none"></div>
+
+
 
         {#  {% include 'users/user_details.html.twig' %} #}
         {# {{ 
@@ -13,7 +15,6 @@
     </div>    
 
     <div class="col-sm-9">
-         
         {% include 'users/users.html.twig' %}
     </div>    
 

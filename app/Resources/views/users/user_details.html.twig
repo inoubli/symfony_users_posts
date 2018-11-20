@@ -1,23 +1,8 @@
-{# <img src="{{ avatar_url }}" class="thumbnail img-responsive" /> #}
-<h1> {{ name }} </h1>
-<h2>{{ username }}</h2>
-
-<hr />
-
-<ul class="list-unstyled">
-    <li>{{ address.street }}</li>
-    <li>{{ address.suite }}</li>
-    <li>{{ address.city }}</li>
-    <li><a href="{{ website }}">{{ website }} </a></li>
-</ul>
-<hr>
-<h2>Company : </h2>
-<ul class="list-inline">
-   {% for key, value in company %} 
-   <li><span class="social-metric-count"> {{ value }} </span>
-   <br/>
-   <span class="small muted">{{ key }} </span>
-   </li>
-   {% endfor  %}
-</ul>
-
+<!-- app/Resources/views/users/user.html.twig -->
+<h3>Details:</h3>
+<a href="javascript:void(0);"  >{{ user.website }}</a>
+<br />
+<span class="small">{{ user.name }}</span>
+<span class="pull-right">
+    {{ user.address.city }} <i class="glyphicon glyphicon-star"></i>
+</span>

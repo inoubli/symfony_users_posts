@@ -27,7 +27,7 @@ class UsersController extends Controller{
 
         $user =$usersApi->getUser($id);
         //var_dump($user);Die();
-        $content = $this->renderView('users/user.html.twig',array('user' => $user ) );
+        $content = $this->renderView('users/user_details.html.twig',array('user' => $user ) );
         $data = new Response($content);
         return $data;
     }
