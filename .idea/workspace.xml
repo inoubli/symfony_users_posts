@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c6fd18-0843-4498-8625-f59d2c39a703" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/users/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/users/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/users/user_details.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/users/user_details.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/mystyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/users/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="306">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
                 <element signature="e#73#94#0#HTML" expanded="true" />
@@ -101,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/mystyle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -174,8 +169,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/users/users.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/users/user.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/users/index.html.twig" />
         <option value="$PROJECT_DIR$/web/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/users/index.html.twig" />
       </list>
     </option>
   </component>
@@ -347,12 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542646694047</updated>
       <workItem from="1542646697426" duration="102000" />
-      <workItem from="1542646831944" duration="9944000" />
+      <workItem from="1542646831944" duration="10576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10046000" />
+    <option name="totallyTimeSpent" value="10678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1280" height="1024" extended-state="6" />
@@ -467,22 +462,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/users/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
             <element signature="e#73#94#0#HTML" expanded="true" />
             <element signature="e#327#348#0#Twig" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
